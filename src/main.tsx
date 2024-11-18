@@ -8,6 +8,7 @@ import Torles from './comanents/torles';
 import Tabletekmegjelen from './comanents/Tabletmegjelen';
 import Tabletekfelvetel from './comanents/tabletfel';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Tabletsearch from './comanents/tabletsearch';
 
 const router = createBrowserRouter([
   {
@@ -34,7 +35,11 @@ const router = createBrowserRouter([
     element: <Tabletekmegjelen></Tabletekmegjelen>
 
   },
+  {
+    path:"/tabsearh",
+    element: <Tabletsearch></Tabletsearch>
 
+  },
   
 ]);
 

@@ -19,6 +19,9 @@ export default function Navbar(){
       <li className="nav-item">
         <a className="nav-link " href="/tabletek-torles">törlés</a>
       </li>
+      <li className="nav-item">
+        <a className="nav-link " href="/tabsearh">search</a>
+      </li>
     </ul>
   </div>
 </nav>
