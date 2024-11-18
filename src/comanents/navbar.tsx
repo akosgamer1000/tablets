@@ -22,6 +22,9 @@ export default function Navbar(){
       <li className="nav-item">
         <a className="nav-link " href="/tabsearh">search</a>
       </li>
+      <li className="nav-item">
+        <a className="nav-link " href="/pagement">pagement</a>
+      </li>
     </ul>
   </div>
 </nav>

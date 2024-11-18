@@ -9,6 +9,7 @@ import Tabletekmegjelen from './comanents/Tabletmegjelen';
 import Tabletekfelvetel from './comanents/tabletfel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Tabletsearch from './comanents/tabletsearch';
+import Pagement from './comanents/pagement';
 
 const router = createBrowserRouter([
   {
@@ -40,7 +41,11 @@ const router = createBrowserRouter([
     element: <Tabletsearch></Tabletsearch>
 
   },
-  
+  {
+    path:"/pagement",
+    element: <Pagement></Pagement>,
+
+  },
 ]);
 
 
